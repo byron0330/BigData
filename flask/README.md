@@ -1,4 +1,4 @@
-<img width="802" height="513" alt="image" src="https://github.com/user-attachments/assets/0dec74d3-4547-4b9e-b070-79ce1f0a8dc7" /># 🕷️ Crawler API
+# 🕷️ Crawler API
 
 本專案是一個基於 **Flask + MongoDB** 的查詢服務，提供爬蟲產生的貼文與留言資料的 API。  
 所有資料由內部爬蟲寫入 MongoDB，本 API 對外僅提供 **唯讀查詢** 功能。
