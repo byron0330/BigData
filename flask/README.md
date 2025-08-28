@@ -1,4 +1,4 @@
-# 🕷️ Crawler API
+<img width="802" height="513" alt="image" src="https://github.com/user-attachments/assets/0dec74d3-4547-4b9e-b070-79ce1f0a8dc7" /># 🕷️ Crawler API
 
 本專案是一個基於 **Flask + MongoDB** 的查詢服務，提供爬蟲產生的貼文與留言資料的 API。  
 所有資料由內部爬蟲寫入 MongoDB，本 API 對外僅提供 **唯讀查詢** 功能。
@@ -36,14 +36,16 @@
 
 ## ▶️ 啟動服務
 
-```bash
-python app.py
-```
+本專案已部屬至 Azure Web App，不需手動啟動服務。
 
-預設服務啟動於：  
-👉 <http://127.0.0.1:5000>
+服務已固定運行於以下網址：
+👉 https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net
 
----
+你可以直接透過上述網址呼叫 API，例如：
+
+健康檢查：GET /ping
+
+撈取資料：GET /all、GET /posts、GET /posts/<post_id>
 
 ## 📘 API 說明文件
 
