@@ -4,6 +4,13 @@
 所有資料由內部爬蟲寫入 MongoDB，本 API 對外僅提供 **唯讀查詢** 功能。
 
 ---
+## 📂 專案結構
+crawler-api/
+├── app.py               # Flask 主程式
+├── mongo_helper.py      # MongoDB 輔助方法
+├── requirements.txt     # 套件需求
+├── README.md            # 專案說明文件
+└── ...
 
 ## 🚀 環境需求
 
@@ -50,7 +57,7 @@
 ## 📘 API 說明文件
 
 ### 1. 健康檢查
-**GET** `/ping`  
+**GET** `https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/ping`  
 測試 API 與資料庫是否連線正常。  
 
 **回傳**
@@ -61,7 +68,7 @@
 ---
 
 ### 2. 撈全部文件
-**GET** `/all`
+**GET** `https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/all`
 
 一次撈取所有文件（Post 與 Comment 皆包含）。
 
@@ -78,7 +85,7 @@ GET /all?limit=5&skip=0
 ---
 
 ### 3. 貼文列表
-**GET** `/posts`
+**GET** `https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts`
 
 列出所有貼文（`Type=Post`），依建立時間新 → 舊排序。  
 可選擇性帶回部分留言預覽。
@@ -92,13 +99,13 @@ GET /all?limit=5&skip=0
 
 **範例**
 ```
-GET /posts?limit=3&include=comments&comments_limit=2
+GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts?limit=3&include=comments&comments_limit=2
 ```
 
 ---
 
 ### 4. 單篇貼文詳情
-**GET** `/posts/<post_id>`
+**GET** `https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts/<post_id>`
 
 取得單篇貼文內容，並支援留言分頁。
 
@@ -109,7 +116,7 @@ GET /posts?limit=3&include=comments&comments_limit=2
 
 **範例**
 ```
-GET /posts/acaf4c94-8cb9-4126-bf50-03045b9ba467?comments_limit=5&comments_skip=0
+GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts/acaf4c94-8cb9-4126-bf50-03045b9ba467?comments_limit=5&comments_skip=0
 ```
 
 ---
