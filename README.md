@@ -8,7 +8,7 @@
 - 使用 Scrapy 框架抓取 Yahoo 新聞資料
 - 內建 **輿情分析 Pipeline**（字典法）
 - 自動輸出 CSV，包含：標題、連結、作者、日期、情緒標籤
-- 📂 [進入專案](./YahooNewsCrawler)
+- 📂 [進入專案](./YahooNews)
 
 ---
 
@@ -17,7 +17,7 @@
 - 自動展開「查看更多」、抓取貼文與留言
 - 貼文與留言以 `PostId` 建立關聯，並存入 MongoDB
 - ⚠️ MongoDB 目前連線為 **Test 環境**
-- 📂 [進入專案](./FacebookGroupCrawler)
+- 📂 [進入專案](./Facebook)
 
 ---
 
@@ -25,7 +25,7 @@
 - 使用 Flask + MongoDB 提供 API 介面
 - 支援資料插入、查詢等功能
 - 已測試可部署到雲端 (Azure)
-- 📂 [進入專案](./FlaskAPI)
+- 📂 [進入專案](./flask)
 
 ---
 
