@@ -1,0 +1,13 @@
+[
+  {"domain": ".facebook.com", "name": "sb", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "datr", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "ps_l", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "ps_n", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "dpr", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "ar_debug", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "wd", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "c_user", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "xs", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "fr", "value": "請放入您的cookie", "path": "/", "secure": true},
+  {"domain": ".facebook.com", "name": "presence", "value": "請放入您的cookie", "path": "/", "secure": true}
+]
