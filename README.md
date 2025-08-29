@@ -27,7 +27,11 @@
 - 支援資料插入、查詢等功能
 - 已測試可部署到雲端 (Azure)
 - 📂 [進入專案](./flask)
-
+## 📡 API 快速驗收
+-Flask API 詳細文件請見 [flask/README.md](./flask/README.md)。  
+-以下提供最常用的驗證範例：
+# 取最新 3 筆資料
+curl -sS "https://facebook-flask-api-xxxx.azurewebsites.net/all?limit=3"
 ---
 
 ## 💡 使用方式
