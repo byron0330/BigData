@@ -3,7 +3,10 @@
 此 Repo 收錄三個面試測驗專案，皆為獨立子專案，可分別進入資料夾查看。
 
 ---
-
+## 💡 使用方式
+1. 進入各子專案資料夾
+2. 依照 `README.md` 指示安裝環境與執行
+   
 ## 📌 專案一：Yahoo 新聞爬蟲 (Scrapy)
 - 於8/26 16:00時完成並執行
 - 使用 Scrapy 框架抓取 Yahoo 新聞資料
@@ -33,7 +36,3 @@
 # 取最新 3 筆資料
 curl -sS "https://facebook-flask-api-xxxx.azurewebsites.net/all?limit=3"
 ---
-
-## 💡 使用方式
-1. 進入各子專案資料夾
-2. 依照 `README.md` 指示安裝環境與執行
