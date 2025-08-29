@@ -79,7 +79,7 @@ crawler-api/
 
 **範例**
 ```
-GET /all?limit=5&skip=0
+GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/all?limit=5&skip=0
 ```
 
 ---
