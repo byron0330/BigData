@@ -119,44 +119,8 @@ GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.n
 GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts/acaf4c94-8cb9-4126-bf50-03045b9ba467?comments_limit=5&comments_skip=0
 ```
 **Response**
-{
-  "data": [
-    {
-      "Author": "LAVA 鐵人公司",
-      "Content": "2026第一天，一起去跑步～請不要說不！\n詳細內容請看：[https://bao-ming.\ncom/eb/content/6703](https://bao-ming.\ncom/eb/content/6703?fbclid=IwZXh0bgNhZW0CM\nTAAYnJpZBExSkJ5b1FldXhweFJZQlVINAEeSDDkI\nc8MGHJVNzvefuDKdPYHrSRxk4ZEXp7r_0nLKqXJd\nl6xlU_9EVT_3j8_aem_2156u09HWhf7Du9XqNUjCg)",
-      "CreatedAt": "2025-08-27T17:57:20.981000",
-      "PostId": "acfa4c94-8cb9-4126-bf50-03045b9ba467",
-      "Type": "Post",
-      "_id": "68afe1c1e047d2ce774d7def",
-      "comment_count": 2,
-      "comments": [
-        {
-          "Author": "Johnny Huang",
-          "Content": "太可惜了沒有42K的",
-          "CreatedAt": "2025-08-27T19:57:20.981000",
-          "PostId": "acfa4c94-8cb9-4126-bf50-03045b9ba467",
-          "Type": "Comment",
-          "_id": "68afe1bce047d2ce774d7ded"
-        },
-        {
-          "Author": "饅頭.",
-          "Content": "貼圖",
-          "CreatedAt": "2025-08-28T10:57:20.981000",
-          "PostId": "acfa4c94-8cb9-4126-bf50-03045b9ba467",
-          "Type": "Comment",
-          "_id": "68afe1bde047d2ce774d7dee"
-        }
-      ]
-    }
-  ],
-  "meta": {
-    "count": 1,
-    "has_next": true,
-    "limit": 1,
-    "skip": 0,
-    "total_count": 554
-  }
-}
+```json
+{ "data": [ { "Author": "LAVA 鐵人公司", "Content": "2026第一天，一起去跑步～...", "PostId": "acfa4c94-8cb9-4126-bf50-03045b9ba467", "Type": "Post", "_id": "66cfbd8c8f0d45e4f7c12345", "comment_count": 2, "comments": [ { "Author": "Johnny Huang", "Content": "太可惜了沒有42K的", "Type": "Comment", "_id": "68afe1c1e047d2ce774d7def" }, { "Author": "饅頭", "Content": "貼圖", "Type": "Comment", "_id": "68afe1bde047d2ce774d7dee" } ] } ], "meta": { "count": 1, "has_next": true, "limit": 1, "skip": 0, "total_count": 554 } }
 ---
 
 ## 🔒 設計說明
