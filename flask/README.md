@@ -101,7 +101,41 @@ GET /all?limit=5&skip=0
 ```
 GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts?limit=3&include=comments&comments_limit=2
 ```
-
+**回應**
+```json
+{
+  "data": [
+    {
+      "_id": "66cfbd8c8f0d45e4f7c12345",
+      "Type": "Post",
+      "PostId": "acfa4c94-8cb9-4126-bf50-03045b9ba467",
+      "Author": "LAVA 鐵人公司",
+      "Content": "2026第一天，一起去跑步～...",
+      "comment_count": 2,
+      "comments": [
+        {
+          "_id": "68afe1c1e047d2ce774d7def",
+          "Type": "Comment",
+          "Author": "Johnny Huang",
+          "Content": "太可惜了沒有42K的"
+        },
+        {
+          "_id": "68afe1bde047d2ce774d7dee",
+          "Type": "Comment",
+          "Author": "饅頭",
+          "Content": "貼圖"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "has_next": true,
+    "limit": 1,
+    "skip": 0,
+    "total_count": 554
+  }
+}
 ---
 
 ### 4. 單篇貼文詳情
@@ -118,9 +152,7 @@ GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.n
 ```
 GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts/acaf4c94-8cb9-4126-bf50-03045b9ba467?comments_limit=5&comments_skip=0
 ```
-**Response**
-```json
-{ "data": [ { "Author": "LAVA 鐵人公司", "Content": "2026第一天，一起去跑步～...", "PostId": "acfa4c94-8cb9-4126-bf50-03045b9ba467", "Type": "Post", "_id": "66cfbd8c8f0d45e4f7c12345", "comment_count": 2, "comments": [ { "Author": "Johnny Huang", "Content": "太可惜了沒有42K的", "Type": "Comment", "_id": "68afe1c1e047d2ce774d7def" }, { "Author": "饅頭", "Content": "貼圖", "Type": "Comment", "_id": "68afe1bde047d2ce774d7dee" } ] } ], "meta": { "count": 1, "has_next": true, "limit": 1, "skip": 0, "total_count": 554 } }
+
 ---
 
 ## 🔒 設計說明
