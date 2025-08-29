@@ -152,9 +152,30 @@ GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.n
 
 **範例**
 ```
-GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts/acaf4c94-8cb9-4126-bf50-03045b9ba467?comments_limit=5&comments_skip=0
+GET https://facebook-flask-api-bjgrggesf0hnd6ez.southeastasia-01.azurewebsites.net/posts/c6c97327-94ac-45dd-831f-fb03c0817d48?comments_limit=5&comments_skip=0
 ```
-
+**回應**
+```json
+{
+  "Author": "永續跑者倡議行動",
+  "Content": "路跑賽事廢棄物減量大哉問！如何\n才能達成「零廢棄物」的終極目標\n？\n當路跑人潮退去，留下的只有處理不完的垃圾？廢棄\n物如何減量與回收，正是檢驗一場賽事能否邁向永續\n的關鍵，文章提出四大重要議題，思考路跑賽事如何\n從源頭管控到末端回收，達成「零廢棄物」的終極目\n標。",
+  "CreatedAt": "2025-08-27T14:57:20.981000",
+  "PostId": "c6c97327-94ac-45dd-831f-fb03c0817d48",
+  "Type": "Post",
+  "_id": "68afe1e5e047d2ce774d7df5",
+  "comment_count": 1,
+  "comments": [
+    {
+      "Author": "鐵路大亨",
+      "Content": "務實一點，零廢棄物只是口號，40%(舉例\n)可能比較實在，",
+      "CreatedAt": "2025-08-27T15:57:20.981000",
+      "PostId": "c6c97327-94ac-45dd-831f-fb03c0817d48",
+      "Type": "Comment",
+      "_id": "68afe1e1e047d2ce774d7df4"
+    }
+  ]
+}
+```
 ---
 
 ## 🔒 設計說明
