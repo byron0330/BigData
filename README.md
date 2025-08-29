@@ -3,12 +3,15 @@
 此 Repo 收錄三個面試測驗專案，皆為獨立子專案，可分別進入資料夾查看。
 
 ---
+
 ## 💡 使用方式
 1. 進入各子專案資料夾
 2. 依照 `README.md` 指示安裝環境與執行
-   
+
+---
+
 ## 📌 專案一：Yahoo 新聞爬蟲 (Scrapy)
-- 於8/26 16:00時完成並執行
+- 於 8/26 16:00 完成並執行
 - 使用 Scrapy 框架抓取 Yahoo 新聞資料
 - 內建 **輿情分析 Pipeline**（字典法）
 - 自動輸出 CSV，包含：標題、連結、作者、日期、情緒標籤
@@ -30,9 +33,17 @@
 - 支援資料插入、查詢等功能
 - 已測試可部署到雲端 (Azure)
 - 📂 [進入專案](./flask)
+
+---
+
 ## 📡 API 快速驗收
--Flask API 詳細文件請見 [flask/README.md](./flask/README.md)。  
--以下提供最常用的驗證範例：
+
+Flask API 詳細文件請見 [flask/README.md](./flask/README.md)。  
+以下提供最常用的驗證範例：
+
+```bash
+# 健康檢查
+curl -sS "https://facebook-flask-api-xxxx.azurewebsites.net/ping"
+
 # 取最新 3 筆資料
 curl -sS "https://facebook-flask-api-xxxx.azurewebsites.net/all?limit=3"
----
