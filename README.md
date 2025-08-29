@@ -31,7 +31,7 @@
 ## 📌 專案三：Flask API (Flask + MongoDB)
 - 使用 Flask + MongoDB 提供 API 介面
 - 支援資料插入、查詢等功能
-- 已測試可部署到雲端 (Azure)
+- 已部署到雲端 (Azure)
 - 📂 [進入專案](./flask)
 
 ---
