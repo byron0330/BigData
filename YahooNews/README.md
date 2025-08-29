@@ -4,7 +4,7 @@
 
 本專案使用 **Scrapy** 框架，收錄 Yahoo 新聞近一小時的文章，並進行簡單的輿情分析（正向 / 中性 / 負向）。  
 
-產出檔案為 `output/yahoo_news.csv`，包含：
+產出檔案為 `output/yahoo_news_08261600_done.csv`，包含：
 - `title`：新聞標題  
 - `url`：新聞連結  
 - `author`：作者  
@@ -21,3 +21,4 @@
 
 ```bash
 pip install -r requirements.txt
+
